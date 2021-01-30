@@ -9,6 +9,12 @@ def toadstool
 end
 
 def link
-  status = "It's Dangerous To Go Alone! Take This."
+  linkphrase = "It's Dangerous To Go Alone! Take This."
+  puts linkphrase
+end
+
+def all_phrases
+  puts phrase
   puts status
+  puts linkphrase
 end
