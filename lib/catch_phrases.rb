@@ -1,20 +1,18 @@
-phrase = 'It's-a me, Mario!'
+mario_phrase = 'It's-a me, Mario!'
 def mario
-  puts phrase
+  puts mario_phrase
 end
 
-status = 'Thank You Mario! But Our Princess Is In Another Castle!''
+toadstool_phrase = 'Thank You Mario! But Our Princess Is In Another Castle!''
 def toadstool
-  puts status
+  puts toadstool_phrase
 end
 
-lphrase = 'It's Dangerous To Go Alone! Take This.''
+link_phrase = 'It's Dangerous To Go Alone! Take This.''
 def link
-  puts lphrase
+  puts link_phrase
 end
 
 def all_phrases
-  puts phrase
-  puts status
-  puts lphrase
+  puts mario_phrase, toadstool_phrase, link_phrase
 end
