@@ -1,6 +1,4 @@
-def link()
-  phrase = "It's Dangerous To Go Alone! Take This."
-  puts phrase 
+def mario
+  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+  puts phrase
 end
-
-def all_phrases()
