@@ -3,16 +3,16 @@ def mario
   puts mario_phrase
 end
 
-toadstool_phrase = "Thank You Mario! But Our Princess Is In Another Castle!"
 def toadstool
+  toadstool_phrase = "Thank You Mario! But Our Princess Is In Another Castle!"
   puts toadstool_phrase
 end
 
-link_phrase = "It's Dangerous To Go Alone! Take This."
 def link
+  link_phrase = "It's Dangerous To Go Alone! Take This."
   puts link_phrase
 end
 
 def all_phrases
-  puts mario_phrase, toadstool_phrase, link_phrase
+  puts mario, toadstool, link
 end
